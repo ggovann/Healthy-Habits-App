@@ -20,6 +20,8 @@
 		18E9E98C22C53C820014797E /* LegsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E98B22C53C820014797E /* LegsViewController.swift */; };
 		18E9E98E22C53CBC0014797E /* ArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E98D22C53CBC0014797E /* ArmsViewController.swift */; };
 		18E9E99022C53CF70014797E /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E98F22C53CF70014797E /* CoreViewController.swift */; };
+		18FFDEFF22C65B160090BCB2 /* LegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFDEFE22C65B160090BCB2 /* LegViewController.swift */; };
+		18FFDF0122C65DD70090BCB2 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FFDF0022C65DD70090BCB2 /* EmptyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		18E9E98B22C53C820014797E /* LegsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsViewController.swift; sourceTree = "<group>"; };
 		18E9E98D22C53CBC0014797E /* ArmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmsViewController.swift; sourceTree = "<group>"; };
 		18E9E98F22C53CF70014797E /* CoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		18FFDEFE22C65B160090BCB2 /* LegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegViewController.swift; sourceTree = "<group>"; };
+		18FFDF0022C65DD70090BCB2 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				18E81CE822C3C39B0074A105 /* ViewController.swift */,
 				18E9E98922C534860014797E /* homeScreenViewController.swift */,
 				18E81CEA22C3C39B0074A105 /* Main.storyboard */,
+				18FFDF0022C65DD70090BCB2 /* EmptyViewController.swift */,
+				18FFDEFE22C65B160090BCB2 /* LegViewController.swift */,
 				18E9E98F22C53CF70014797E /* CoreViewController.swift */,
 				18E9E98D22C53CBC0014797E /* ArmsViewController.swift */,
 				18E9E98B22C53C820014797E /* LegsViewController.swift */,
@@ -274,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FFDEFF22C65B160090BCB2 /* LegViewController.swift in Sources */,
 				18E9E98822C508C60014797E /* NameInputViewController.swift in Sources */,
+				18FFDF0122C65DD70090BCB2 /* EmptyViewController.swift in Sources */,
 				18E9E98E22C53CBC0014797E /* ArmsViewController.swift in Sources */,
 				18E9E98A22C534860014797E /* homeScreenViewController.swift in Sources */,
 				18E9E99022C53CF70014797E /* CoreViewController.swift in Sources */,

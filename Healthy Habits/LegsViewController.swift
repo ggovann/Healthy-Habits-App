@@ -98,46 +98,46 @@ class LegsViewController: UIViewController {
         let seconds = Int(time) % 60
         return String(format: "%02i:%02i:%02i", hours, minutes, seconds)
     }
-        
-        func alertMessage() {
-            let alert = UIAlertController(title: "Good job!", message: "You finished your daily leg workouts!💪", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
-            self.present(alert, animated: true)
-        }
-        var isSwitchOn: Bool = false
-        //    var alertCancel: Bool = false
-        //    func resetSwitch()
-        //    {
-        //        isSwitchOn.toggle()
-        //    if (isSwitchOn)
-        //    {
-        //        alertCancel = false
-        //    }
-        //}
-
-        
-   
-        @IBAction func SwitchFlicked(_ sender: UISwitch)
-        {
-            isSwitchOn.toggle()
-            if isSwitchOn
-            {
-                alertMessage()
-            }
-        }
-        
-        
-        
-
-    
-
-    
-    
-    
-   
-        
-        // Do any additional setup after loading the view.
-    
+//    
+//        func alertMessage() {
+//            let alert = UIAlertController(title: "Good job!", message: "You finished your daily leg workouts!💪", preferredStyle: .alert)
+//            alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+//            self.present(alert, animated: true)
+//        }
+//        var isSwitchOn: Bool = false
+//        //    var alertCancel: Bool = false
+//        //    func resetSwitch()
+//        //    {
+//        //        isSwitchOn.toggle()
+//        //    if (isSwitchOn)
+//        //    {
+//        //        alertCancel = false
+//        //    }
+//        //}
+//
+//    
+//   
+//        @IBAction func SwitchFlicked(_ sender: UISwitch)
+//        {
+//            isSwitchOn.toggle()
+//            if isSwitchOn
+//            {
+//                alertMessage()
+//            }
+//        }
+//    
+//    
+//    
+//
+//    
+//
+//    
+//    
+//    
+//   
+//    
+//        // Do any additional setup after loading the view.
+//    
 
 
 
